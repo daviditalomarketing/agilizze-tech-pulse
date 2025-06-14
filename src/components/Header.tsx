@@ -1,5 +1,5 @@
 
-import { Phone, Instagram, Whatsapp } from "lucide-react";
+import { Phone, Instagram, MessageSquare } from "lucide-react";
 
 const whatsappUrl = "https://api.whatsapp.com/message/YFSH2PU2K5YZA1?autoload=1&app_absent=0";
 
@@ -26,7 +26,7 @@ export function Header() {
             rel="noopener noreferrer"
             className="bg-agilizze-lime text-agilizze-navy font-extrabold px-4 py-2 rounded-full flex items-center gap-2 hover:scale-105 transition hover:shadow-lg"
           >
-            <Whatsapp size={20} />
+            <MessageSquare size={20} />
             WhatsApp
           </a>
         </div>

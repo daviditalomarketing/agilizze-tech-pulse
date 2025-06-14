@@ -1,7 +1,7 @@
 
 import { useState } from "react";
 import { toast } from "@/hooks/use-toast";
-import { Whatsapp } from "lucide-react";
+import { MessageSquare } from "lucide-react";
 
 const whatsappUrl = "https://api.whatsapp.com/message/YFSH2PU2K5YZA1?autoload=1&app_absent=0";
 
@@ -83,7 +83,7 @@ export function Contato() {
                 rel="noopener noreferrer"
                 className="flex-1 flex items-center justify-center gap-2 bg-agilizze-lime text-agilizze-navy font-bold px-6 py-3 rounded-full hover:scale-105 transition whitespace-nowrap"
               >
-                <Whatsapp size={22} />
+                <MessageSquare size={22} />
                 WhatsApp direto
               </a>
             </div>

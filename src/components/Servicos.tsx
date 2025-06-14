@@ -1,5 +1,5 @@
 
-import { MessageSquare, Phone, ArrowRight, Instagram, Whatsapp } from "lucide-react";
+import { MessageSquare, Phone, ArrowRight, Instagram } from "lucide-react";
 
 const listaServicos = [
   {
@@ -25,7 +25,7 @@ const listaServicos = [
   {
     titulo: "Automação de Processos",
     desc: "Fluxos automatizados que reduzem falhas e aumentam sua produtividade.",
-    icon: Whatsapp,
+    icon: MessageSquare,
   },
 ];
 
