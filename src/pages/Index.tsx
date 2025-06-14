@@ -1,12 +1,26 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+// Landing page Agilizze
+
+import { Header } from "@/components/Header";
+import { Hero } from "@/components/Hero";
+import { Servicos } from "@/components/Servicos";
+import { Beneficios } from "@/components/Beneficios";
+import { Depoimentos } from "@/components/Depoimentos";
+import { Contato } from "@/components/Contato";
+import { Footer } from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-background">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-muted-foreground">Start building your amazing project here!</p>
-      </div>
+    <div className="w-full min-h-screen bg-agilizze-bg">
+      <Header />
+      <main className="">
+        <Hero />
+        <Servicos />
+        <Beneficios />
+        <Depoimentos />
+        <Contato />
+      </main>
+      <Footer />
     </div>
   );
 };

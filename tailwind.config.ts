@@ -18,7 +18,16 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				inter: ['Inter', 'sans-serif'],
+			},
 			colors: {
+				agilizze: {
+					navy: "#1C1F4C", // Azul-marinho
+					lime: "#A7FF57", // Verde-lima
+					white: "#FFFFFF",
+					bg: "#F5F7FA",
+				},
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
 				ring: 'hsl(var(--ring))',
