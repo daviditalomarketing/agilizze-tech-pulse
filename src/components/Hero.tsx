@@ -28,7 +28,7 @@ export function Hero() {
         </div>
         <div className="flex-1 mt-10 md:mt-0 flex justify-end">
           <img
-            src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&w=600&q=80"
+            src="/lovable-uploads/1b21021e-ae74-45ab-bad7-39632564bbb1.png"
             alt="Atendente Virtual"
             className="rounded-xl shadow-2xl w-[400px] h-[340px] object-cover border-4 border-white/20"
           />
