@@ -1,19 +1,19 @@
 
 const depoimentos = [
   {
-    nome: "Clínica Vida Saúde",
-    texto: "A automação da Agilizze otimizou nosso atendimento — conseguimos responder pacientes 24/7 e reduzir custos. Recomendo muito!",
-    cargo: "Gestora de Atendimento",
+    nome: "Clínica Viver Bem",
+    texto: "Depois da automação com a Agilizze, conseguimos eliminar completamente os atendimentos manuais. A economia com equipe e a agilidade no retorno aos pacientes foram absurdas.",
+    cargo: "Coordenadora Administrativa",
   },
   {
-    nome: "Consultório Dr. Carlos",
-    texto: "Os bots reduziram em 80% o tempo com agendamento e integração com WhatsApp foi perfeita!",
-    cargo: "Administrador",
+    nome: "Consultório Dr. Henrique",
+    texto: "A atendente virtual resolveu 90% das perguntas frequentes dos pacientes. Hoje, minha secretária foca só nos casos que realmente exigem atenção humana.",
+    cargo: "Dr. Henrique Lima, Odontologista",
   },
   {
-    nome: "Clínica Nova Era",
-    texto: "Conseguimos eliminar erros simples e passamos a focar mais no paciente. Equipe ágil e prestativa, resultados acima do esperado.",
-    cargo: "Coordenadora",
+    nome: "Clínica Essencial Saúde",
+    texto: "Economizamos mais de R$3.000 por mês com automações. Fora a redução de faltas e o aumento na satisfação dos pacientes. A Agilizze transformou nossa operação.",
+    cargo: "Diretora Executiva",
   },
 ];
 

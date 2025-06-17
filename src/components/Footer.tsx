@@ -7,7 +7,6 @@ export function Footer() {
       <div className="container max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between px-5 gap-4">
         <div className="flex flex-col md:flex-row items-center gap-2 md:gap-6">
           <span className="font-extrabold text-agilizze-lime text-lg">Agilizze Tech</span>
-          <span>CNPJ: 99.999.999/0001-00</span>
         </div>
         <div className="flex items-center gap-6">
           <a href="https://www.instagram.com/agilizze.tech" target="_blank" rel="noopener noreferrer" className="flex items-center gap-1 hover:text-agilizze-lime transition">

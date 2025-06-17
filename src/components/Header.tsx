@@ -8,10 +8,11 @@ export function Header() {
     <header className="w-full bg-agilizze-navy text-white shadow-md sticky top-0 z-40">
       <div className="max-w-screen-xl mx-auto flex items-center justify-between px-6 py-3">
         <div className="flex items-center gap-3">
-          <div className="text-2xl font-bold tracking-tight">
-            <span className="text-agilizze-lime">Agilizze</span>
-            <span className="text-white ml-1">Tech</span>
-          </div>
+          <img 
+            src="/lovable-uploads/7a1d661e-35e5-4fb1-a1e4-295b931f4f63.png" 
+            alt="Agilizze Logo" 
+            className="h-10 w-auto"
+          />
         </div>
         <nav className="hidden md:flex gap-8 font-semibold text-lg">
           <a href="#servicos" className="hover:text-agilizze-lime transition">Serviços</a>
